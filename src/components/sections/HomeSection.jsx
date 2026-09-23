@@ -7,6 +7,7 @@ import AnimatedLogo from '../ui/AnimatedLogo'
 import MagneticButton from '../ui/MagneticButton'
 import TypingRoles from '../ui/TypingRoles'
 import{ Handshake} from "lucide-react"
+import Resume from "../../assets/GYANA.PDF"
 const logoParticles = [
   { left: '14%', top: '18%', size: 'h-1.5 w-1.5', color: '#ffda75', delay: 0 },
   { left: '78%', top: '20%', size: 'h-2 w-2', color: '#50dcb7', delay: 0.35 },
@@ -89,8 +90,8 @@ function HomeSection() {
             </MagneticButton>
 
             <MagneticButton
-              href={resumeFront}
-              download="Gyanaranjan-Sahu-Resume.jpg"
+              href={Resume}
+              download="GYANA.pdf"
               onClick={handleResume}
               className="w-full border border-white/20 bg-transparent text-white transition-all duration-300 hover:border-white hover:bg-white hover:text-black sm:w-auto"
             >

@@ -107,5 +107,5 @@ export const projects = [
 export const socialLinks = [
   { label: 'GitHub', href: 'https://github.com/Gyanaranjansahu', icon: 'github' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/', icon: 'linkedin' },
-  { label: 'Email', href: 'mailto:gyana9619@gmail.com', icon: 'mail' },
+  { label: 'Email', href: 'mailto:gyanastack@gmail.com', icon: 'mail' },
 ]
